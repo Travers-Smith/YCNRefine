@@ -1,8 +1,3 @@
-.item{
-    display: flex;
-    flex-direction: row;
-}
-
 .itemLink {
     display: flex;
     column-gap: 10px;
@@ -17,11 +12,6 @@
     text-decoration: underline;
 }
 
-.item svg {
+.itemLink svg {
     color: grey;
-}
-
-.rightSide {
-    text-align: end;
-    width: 35%;
 }
