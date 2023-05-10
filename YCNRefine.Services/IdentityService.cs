@@ -18,8 +18,8 @@ public class IdentityService : IIdentityService
     public string? GetEmail()
     {
         return _httpContextAccessor
-            .HttpContext
-            .User
+            ?.HttpContext
+            ?.User
             .Claims
             .FirstOrDefault(x => x.Type == "preferred_username")
             ?.Value;
@@ -28,8 +28,8 @@ public class IdentityService : IIdentityService
     public string? GetName()
     {
         return _httpContextAccessor
-            .HttpContext
-            .User
+            ?.HttpContext
+            ?.User
             .Claims
             .FirstOrDefault(x => x.Type == "name")
             ?.Value;
@@ -38,8 +38,8 @@ public class IdentityService : IIdentityService
     public Guid? GetUserIdentifier()
     {
         string? identifier = _httpContextAccessor
-            .HttpContext
-            .User
+            ?.HttpContext
+            ?.User
             .Claims
             .FirstOrDefault(x => x.Type == "http://schemas.microsoft.com/identity/claims/objectidentifier")
             ?.Value;
