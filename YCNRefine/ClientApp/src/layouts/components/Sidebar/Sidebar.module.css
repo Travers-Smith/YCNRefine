@@ -1,0 +1,29 @@
+.sidebar {
+    background-color: #202123;
+    height: 100vh;
+    width: 18vw;
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    color: white;
+}
+
+.topSection {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.bottomSection {
+    border-top: 1px solid lightgrey;
+    height: 30%;
+    padding-top: 10px;
+}

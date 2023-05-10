@@ -1,0 +1,14 @@
+.dataSidebar {
+    border-right: 1px solid lightgrey;
+    height: 100%;
+    width: 270px;
+}
+
+.items {
+    overflow-y: auto;
+    height: 90%;
+}
+
+.buttonContainer {
+    text-align: center;
+}

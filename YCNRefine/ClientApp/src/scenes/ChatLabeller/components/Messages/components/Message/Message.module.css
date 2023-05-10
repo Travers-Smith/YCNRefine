@@ -1,0 +1,17 @@
+.messageContainer {
+    border-bottom: 1px solid lightgrey;
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    width: 100%;
+}
+
+.heading {
+    font-weight: 500;
+    width: 50px;
+}
+
+.messageContainer textarea {
+    width: 60vw;
+}

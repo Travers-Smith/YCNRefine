@@ -1,0 +1,20 @@
+.autoLabeller {
+    height: 100%;
+    padding: 20px;
+}
+
+.autoLabeller h5 {
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    height: 90%;
+    padding-top: 15px;
+}
+
+.bodyContent {
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+}

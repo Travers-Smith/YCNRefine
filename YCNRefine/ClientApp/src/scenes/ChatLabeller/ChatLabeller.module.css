@@ -1,0 +1,19 @@
+.chatLabeller {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.messages {
+    border-top: 1px solid lightgrey;
+}
+
+.body {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    height: 78%;
+}

@@ -1,0 +1,15 @@
+.subHeading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.datasetName {
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.subHeading svg {
+    font-size: 15px;
+}

@@ -1,0 +1,1 @@
+export default (params, paraName) => params.map((id, index) => `${index !== 0 ? "&" : ""}${paraName}=${id}`).join("");
