@@ -38,17 +38,6 @@ To run the application on your local machine, follow these steps:
     2.dotnet ef database update (dotnet cli)
 7.Start the application by pressing F5 or by clicking the "Play" button in Visual Studio.
 
-## Personal Mode
-
-YCNRefine has a personal mode that allows the company to decide whether they want users to be able to use YCNRefine for personal use. 
-
-All personal chats will not be recorded.
-
-To enable/disable personal mode there are two steps:
-
-1.Go to the appsetting.json file in the main project and update "AllowPersonalMode" to true or false.
-2. Go to the config.json in the ClientApp/src directory and update "ALLOW_PERSONAL_MODE" to true or false.
-
 ## Switching models
 
 To change the chat completion model in YCNRefine, simply go to the appsettings.json file in the main project and update "ChatCompletionType" to the name of your model.
